@@ -1,65 +1,30 @@
 
 # GOAL
 
-This script finds the instances where 2 words require the same keystrokes, except mirroring left and right hand responsibilities           
+I recently took a sidequest to determine my max typing speed (220 WPM as it turns out), and during that exercise I wondered whether or not my left hand or right hand were faster (I'm naturally right handed, but having played guitar for most of my life - which has developed an extreme left-handed dexterity not dissimilar from typing).  
+
+So I wrote a script to find instances wherein 2 words require the same keystrokes, except mirroring left and right hand responsibilities           
 	(i.e. 'p' corresponds with 'q', 'f' corresponds with 'j', etc)
 
+If I could find some heavily "handed" words, meaning using mostly left or right hands, my relative speed disparity within the pair those could be used as a proxy for my typing speed handedness generally. 
 
-Results are compiled for each of the available English words lists from MonkeyType.com as input           
-	(i.e. 200, 1k, 5k, 10k, 25k, 450k)
+## SUMMARY
 
-The longest word pairing was found to be that of "crudest" & "murkily", the mirror quality of which is illustrated below:
+The longest word pairings were discovered to be shared between the pairs: ("crudest" & "murkily") and ("lessest" & "sillily").  The mirror quality of which is illustrated below for the former, both both pairs share the pattern of being favored (6:1 left, 6:1 right).
 
 ![alt text](https://github.com/conner-mcnicholas/mirrored_words/blob/main/mir.png?raw=true)
 
+I executed the following 2 tests, and was faster at the second, proving that my guitar training was not enough to overcome my innate right handedness.
 
-## RESULTS
+	L-Hand: "crudest lessest crudest lessest crudest lessest crudest lessest crudest lessest"
+	R-Hand: "murkily sillily murkily sillily murkily sillily murkily sillily murkily sillily"
 
+### SOME HIGHLIGHTED MIRRORED PAIRS
 
-Using wordlist --> English_200.txt
+Many of the words in the result files are extremely esoteric, so I curated the following set of commonly used words.
 
-	total # pairs: 0
-
-
-Using wordlist --> English_1k.txt
-
-	total # pairs: 1
-
-	longest:4
-	[['cell', 'miss']]
-
-Using wordlist --> English_5k.txt
-
-	total # pairs: 2
-
-	longest:4
-	[['miss', 'cell'], ['prey', 'quit']]
-
-Using wordlist --> English_10k.txt
-
-	total # pairs: 4
-
-	longest:4
-	[['dell', 'kiss'], ['miss', 'cell'], ['prey', 'quit']]
-
-Using wordlist --> English_25k.txt
-
-	total # pairs: 9
-
-	longest:5
-	[['swill', 'loess']]
-
-Using wordlist --> English_450k.txt
-
-	total # pairs: 357
-
-	longest:7
-	[['murkily', 'crudest'], ['sillily', 'lessest']]
-
-Many of the words in the result files are extremely esoteric, so I curated the following set of commonly used words:
-
-	    ir    |   eu
-	    vt    |   ny
+	     ir   |   eu
+	     vt   |   ny
 	    got   |   hwy
 	    hey   |   git
 	    his   |   gel

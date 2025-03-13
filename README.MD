@@ -8,6 +8,10 @@ This script finds the instances where 2 words require the same keystrokes, excep
 Results are compiled for each of the available English words lists from MonkeyType.com as input           
 	(i.e. 200, 1k, 5k, 10k, 25k, 450k)
 
+The longest word pairing was found to be that of "crudest" & "murkily", the mirror quality of which is illustrated below:
+
+![alt text](https://github.com/conner-mcnicholas/mirrored_words/blob/main/mir.png?raw=true)
+
 
 ## RESULTS
 

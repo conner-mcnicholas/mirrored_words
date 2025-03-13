@@ -1,12 +1,12 @@
 
 # GOAL
 
-I recently took a sidequest to determine my max typing speed (220 WPM as it turns out), and during that exercise I wondered whether or not my left hand or right hand were faster (I'm naturally right handed, but having played guitar for most of my life - which has developed an extreme left-handed dexterity not dissimilar from typing).  
+I recently took a sidequest to determine my max typing speed (220 WPM as it turns out), and during that exercise I wondered whether playing guitar for decades has developed my the dexterity of my lefthand beyond that of my natural-born right-handedness.
 
 So I wrote a script to find instances wherein 2 words require the same keystrokes, except mirroring left and right hand responsibilities           
 	(i.e. 'p' corresponds with 'q', 'f' corresponds with 'j', etc)
 
-If I could find some heavily "handed" words, meaning using mostly left or right hands, my relative speed disparity within the pair those could be used as a proxy for my typing speed handedness generally. 
+The thinking being: if I could find some heavily "handed" words, meaning using mostly left or right finger key strokes, my relative speed disparity between the pair would be a reasonable proxy for my typing-handedness generally.
 
 ## SUMMARY
 

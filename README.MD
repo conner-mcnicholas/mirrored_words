@@ -58,27 +58,27 @@ Using wordlist --> English_450k.txt
 
 Many of the words in the result files are extremely esoteric, so I curated the following set of commonly used words:
 
-	ir    |   eu
-	vt    |   ny
-	got   |   hwy
-	hey   |   git
-	his   |   gel
-	iud   |   erk
-	jut   |   fry
-	kin   |   dev
-	meh   |   cig
-	out   |   wry
-	rye   |   uti
-	yes   |   til
-   bury   |   brut
-   less   |   sill
-   miss   |   cell
-   murk   |   crud
-   oily   |   west
-   prey   |   quit
-   sect   |   limy
-   semi   |   lice
-   twos   |   yowl
-  quill   |   press
-murkily   |   crudest
-sillily   |   lessest
+	    ir    |   eu
+	    vt    |   ny
+	    got   |   hwy
+	    hey   |   git
+	    his   |   gel
+	    iud   |   erk
+	    jut   |   fry
+	    kin   |   dev
+	    meh   |   cig
+	    out   |   wry
+	    rye   |   uti
+	    yes   |   til
+   	   bury   |   brut
+   	   less   |   sill
+  	   miss   |   cell
+       murk   |   crud
+       oily   |   west
+   	   prey   |   quit
+   	   sect   |   limy
+   	   semi   |   lice
+	   twos   |   yowl
+   	  quill   |   press
+  	murkily   |   crudest
+  	sillily   |   lessest
